@@ -23,8 +23,7 @@ const Footer = () => {
             </div>
             <div className="right">
                 <h4>About Me</h4>
-                <p> this is about me xxxxxxxxxxxxxxxxxxxxxx
-                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx </p>
+                <p> I am Bhargav Panchal, a software developer with a Bachelor’s degree in Computer Science from Virginia Tech and an Associate’s degree from Reynolds Community College. I specialize in Java, Python, JavaScript, HTML, CSS, and the MERN stack, focusing on creating innovative solutions to enhance user experiences. </p>
                 <div className="social">
                     <FaLinkedin size={20} style={{color:"white", marginRight: "2rem"}}/>
                     <FaGithub size={20} style={{color:"white", marginRight: "2rem"}}/>

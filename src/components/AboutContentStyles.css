@@ -9,12 +9,32 @@
 }
 
 .about .left{
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 1rem;
-    max-width: 350px;
+    max-width: 1000px;
 }
 
-.about .left p{
+.about .left p, li{
     margin: 1.2rem 0;
+    color: white;
+}
+
+.about .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.about .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 1000px;
 }
