@@ -16,6 +16,9 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;  /* Align children vertically */
+    height: 100%;  /* Optional: set a fixed height if needed */
 }
 
 .project-card img{
@@ -25,15 +28,23 @@
 .project-title{
     color: white;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .pro-details p {
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: center;
+}
+
+.pro-details {
+    flex: 1;  /* Takes up all available space */
+    display: flex;
+    flex-direction: column;  /* Align children vertically */
 }
 
 .pro-btn {
+    margin-top: auto;  /* Pushes itself to the bottom */
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
@@ -41,6 +52,7 @@
 
 .pro-btn .btn {
     padding: 0.5rem 1rem;
+   
 }
 
 @media screen and (max-width: 740px) {

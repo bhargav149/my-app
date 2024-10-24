@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaHome, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaHome, FaLinkedin, FaPhone } from "react-icons/fa";
 import "./FooterStyles.css";
 
 import React from 'react'
